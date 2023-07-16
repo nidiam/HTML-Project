@@ -1,26 +1,46 @@
 /* Write your CSS here! */
-Nav {
-    background-color:cadetblue;
+.navBar {
+    background-color: plum;
     color:black;
     font-family: monospace;
     font-size: 50px;
+    
 
 }
 
+.body {
+    margin: 8px;
+    display: block;
+}
 
-
-.li{
+li{
    list-style: none;
    margin-left: 20px;
    display:inline;
    font-size: 21px;
    font-style: oblique;
+   
 }
 
-.Paragraph {
+li a:hover {
+    background-color: aliceblue;
+  }
+
+.paragraph {
 
  font-size: 20px;   
    
+    
+}
+
+img {
+    width: 480px;
+    height: 570px;
+    display:inline
+}
+
+.image {
+    
     
 }
 
@@ -29,6 +49,6 @@ Nav {
     text-align:end
 }
 
-.Facts {
+.facts {
     font-size: 20px;
 }
